@@ -1,0 +1,106 @@
+{
+  "yaml.schemas": {
+    "file:///Users/adamdavies/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": true,
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "emmet.includeLanguages": {
+    "blade.php": "html",
+    "javascript": "javascriptreact",
+    "javasctip": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+
+    // Hide everything in /public, except "index.php"
+    "**/public/[abcdefghjklmnopqrstuvwxyz]*": true,
+    "**/public/i[abcdefghijklmopqrstuvwxyz]*": true,
+
+    // Hide everything in /vendor, except "laravel" folder.
+    "**/vendor": true,
+    // "**/vendor/l[bcdefghijklmnopqrstuvwxyz]*": true,
+
+    "storage/framework/views": true
+  },
+  "zenMode.fullScreen": false,
+  "workbench.editor.showTabs": false,
+  "editor.codeLens": false,
+  "editor.renderControlCharacters": false,
+  "editor.renderLineHighlight": "none",
+  "editor.matchBrackets": "near",
+  "editor.lineNumbers": "on",
+  "workbench.fontAliasing": "antialiased",
+  "editor.renderWhitespace": "none",
+  "editor.fontSize": 14.5,
+  "editor.fontWeight": "700",
+  "editor.lineHeight": 1.95,
+  "editor.letterSpacing": 1,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.quickSuggestionsDelay": 0,
+  "editor.formatOnPaste": true,
+  "zenMode.centerLayout": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.cursorBlinking": "phase",
+  "scm.diffDecorations": "none",
+  "editor.hover.enabled": false,
+  "workbench.tips.enabled": false,
+  "editor.colorDecorators": false,
+  "git.decorations.enabled": false,
+  "editor.lightbulb.enabled": false,
+  "editor.selectionHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.occurrencesHighlight": false,
+  "problems.decorations.enabled": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "explorer.confirmDelete": false,
+  "prettier.documentSelectors": ["**/*.twig"],
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDragAndDrop": false,
+  "editor.linkedEditing": true,
+  "git.confirmSync": false,
+  "workbench.colorTheme": "Palenight Operator",
+  "git.autofetch": true,
+  "php.validate.executablePath": "/opt/homebrew/bin/php",
+  "php.suggest.basic": false,
+  "editor.quickSuggestions": { "comments": true },
+  "editor.rulers": [80, 120],
+  "phpcs.enable": true,
+  "phpcs.standard": "PSR2",
+  "phpcs.ignorePatterns": ["*/vendor/*"],
+  "phpcs.executablePath": "/Users/adamdavies/.composer/vendor/bin/phpcs",
+  "workbench.activityBar.visible": false,
+  "atlascode.jira.explorer.monitorEnabled": false,
+  "atlascode.bitbucket.pipelines.monitorEnabled": false,
+  "atlascode.bitbucket.explorer.notifications.pullRequestCreated": false,
+  "atlascode.bitbucket.issues.monitorEnabled": false,
+  "workbench.sideBar.location": "right",
+  "extensions.ignoreRecommendations": true
+}
